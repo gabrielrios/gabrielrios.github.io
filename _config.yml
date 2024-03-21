@@ -1,0 +1,10 @@
+title: Rios Dev
+name: Rios Dev
+email: gabriel@rios.dev.br
+description: Hello
+url: http://www.rios.dev.br
+github_username: gabrielrios
+
+# Build settings
+encoding: UTF-8
+include: ['.well-known']
