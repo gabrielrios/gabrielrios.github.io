@@ -29,8 +29,7 @@
         <h3>E2e Smoke</h3>
         <iframe src="https://donorbox-team-2.herokuapp.com/embed/e2e-smoke?" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless"
           frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important" allow="payment"></iframe>
-
-        <h3>Simple Fomr 3</h3>
+        <h3>Simple Form 3</h3>
         <iframe src="https://donorbox-team-2.herokuapp.com/embed/simple-form-3?language=en" name="donorbox" allow="payment" seamless="seamless"
           frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important"></iframe>
         
@@ -41,13 +40,32 @@
         <dbox-widget campaign="fun-1217-improve-fundraising-page" type="popup" button-label="Please donate" sticky-position="left" button-type="sticky" button-size="large" button-color="#df16d8" content-panel></dbox-widget>        
         <script src="https://donorbox-team-2.herokuapp.com/widgets.js" type="module" referrerpolicy="unsafe-url"></script>
         <h3>E2e Smoke Simple Form</h3>
-        
         <dbox-widget campaign="e2e-smoke-simple-form"></dbox-widget>
         <h3>E2e Smoke </h3>
         <dbox-widget campaign="e2e-smoke"></dbox-widget>
         <h3>Simple Fomr 3</h3>
         <dbox-widget campaign="simple-form-3"></dbox-widget>
+        
       </div>
+          <!-- Lazy Load with data-src and class lazyload -->
+      <div style="height: 200vh; background-color: goldenrod;">
+      <h1>Lazy Load Simulation</h1>
+      <p>This page simulates lazy loading of an iframe using the Lazysizes library.</p>
+      <p>Scroll down to load the iframe.</p>
+    </div>
+
+    <!-- Simulate lazy load with data-src and class lazyload -->
+    <iframe
+      data-src="https://donorbox-team-2.herokuapp.com/embed/e2e-smoke-simple-form?"
+      name="donorbox"
+      class="lazyload"
+      style="max-width: 500px; min-width: 250px; height: 900px; width: 100%; max-height: none !important"
+      frameborder="0"
+      scrolling="no"
+      seamless>
+    </iframe>
+
+    <script src="https://donorbox-team-2.herokuapp.com//widget.js" paypalExpress="false"></script>
     </div>
   </body>
 </html>
